@@ -1,0 +1,41 @@
+.app-header {
+    button {
+        margin: 0 16px;
+
+        color: white;
+    }
+
+    .btn-cadastrar {
+        background-color: #694F8E;
+    }
+
+    .spacer {
+        flex: 1 1 auto;
+    }
+    
+    .mat-toolbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        height: auto;
+
+        background-color: black;
+        color: white;
+
+        padding: 10px 64px;
+    }
+    
+    .mat-mdc-outlined-button:not(:disabled) {
+        border-color: white;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
