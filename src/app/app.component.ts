@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './shared/header/header.component';
-import { BannerComponent } from './shared/banner/banner.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,6 @@ import { BannerComponent } from './shared/banner/banner.component';
   imports: [
     RouterOutlet,
     HeaderComponent,
-    BannerComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
@@ -17,7 +16,4 @@ import { BannerComponent } from './shared/banner/banner.component';
 
 export class AppComponent {
   title = 'jornada-milhas';
-
-  protected src: string = '../assets/imagens/banner-homepage.png';
-  protected alt: string = 'Banner da Aplicação Jornada';
 }
