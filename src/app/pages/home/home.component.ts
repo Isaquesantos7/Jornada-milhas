@@ -5,6 +5,7 @@ import { FooterComponent } from '../../shared/footer/footer.component';
 import { CardBuscarComponent } from '../../shared/card-buscar/card-buscar.component';
 import { CardDepoimentoComponent } from '../../shared/card-depoimento/card-depoimento.component';
 import { NgStyle } from '@angular/common';
+import { FormBuscarComponent } from '../../shared/form-buscar/form-buscar.component';
 
 @Component({
   selector: 'app-home',
@@ -15,7 +16,8 @@ import { NgStyle } from '@angular/common';
     FooterComponent,
     CardBuscarComponent,
     CardDepoimentoComponent,
-    NgStyle
+    NgStyle,
+    FormBuscarComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
